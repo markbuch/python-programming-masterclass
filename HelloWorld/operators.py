@@ -10,16 +10,17 @@ print(a % b)    # module: the remainder after integer division
 
 print()
 
-for i in range(1, 4):
-    print(i)
+print(a + b / 3 - 4 * 12)
+print(a + (b / 3) - (4 * 12))
 
-i = 1
-print(i)
-i = 2
-print(i)
-i = 3
-print(i)
+# TO get  12
+print((((a + b) / 3) - 4) * 12)
+print(((a + b) / 3 - 4) * 12)
 
-bun_price = 2.40
-money = 15
-print(money // bun_price)
+c = a + b
+d = c / 3
+e = d - 4
+print(e * 12)
+
+print()
+print(a / (b * a) / b)
