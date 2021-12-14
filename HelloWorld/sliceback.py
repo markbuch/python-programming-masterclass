@@ -19,5 +19,6 @@ print(letters[-4:])  # returns the end of the sequence
 print(letters[-1:])  # returns the last item in the sequence
 print(letters[:1])  # return the first item in the sequence
 
-
+cars = ["Ford", "Chevy", "Honda"]
+print(cars[1][3])
 
