@@ -3,12 +3,12 @@ print("The pet shop owner said \"No, no, 'e's uh, ... he's resting\".")
 print("""The pet shop owner said "No, no, \
 'e's uh,...he's resting".""")
 
-anotherString = """This string has been \
+another_string = """This string has been \
 split over \
 several \
 lines"""
 
-print(anotherString)
+print(another_string)
 
 print("C:\\Users\\mbuchan2\\notes.txt")
 print(r"C:\Users\mbuchan2\notes.txt")
