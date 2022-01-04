@@ -37,35 +37,35 @@ albums = [
      ]
      ),
 ]
-
-for name, artist, year, songs in albums:
-    print("Album: {}, Artists: {}, Year: {}, Songs: {}"
-          .format(name, artist, year, songs))
-print()
-album = albums[3]
-print(album)
-
-songs = album[3]
-print(songs)
-
-song = songs[2]
-print(song)
-print(song[1])
-
-# making code more concise
-mayhem = albums[3][3][2][1]
-print(mayhem)
-print(albums[3])
-print(albums[3][3])
-print(albums[3][3][2])
-print(albums[3][3][2][1])
-
-# challenge
-# They Way I Choose
-print(albums[1][3][5][1])
-# Year Nightflight was released
-print(albums[2][2])
-# Track number of song 'Kentish Town Waltz'
-print(albums[3][3][3][0])
-# tuple representing the song 'Keeping a Rendezvous'
-print(albums[2][3][1])
+#
+# for name, artist, year, songs in albums:
+#     print("Album: {}, Artists: {}, Year: {}, Songs: {}"
+#           .format(name, artist, year, songs))
+# print()
+# album = albums[3]
+# print(album)
+#
+# songs = album[3]
+# print(songs)
+#
+# song = songs[2]
+# print(song)
+# print(song[1])
+#
+# # making code more concise
+# mayhem = albums[3][3][2][1]
+# print(mayhem)
+# print(albums[3])
+# print(albums[3][3])
+# print(albums[3][3][2])
+# print(albums[3][3][2][1])
+#
+# # challenge
+# # They Way I Choose
+# print(albums[1][3][5][1])
+# # Year Nightflight was released
+# print(albums[2][2])
+# # Track number of song 'Kentish Town Waltz'
+# print(albums[3][3][3][0])
+# # tuple representing the song 'Keeping a Rendezvous'
+# print(albums[2][3][1])
