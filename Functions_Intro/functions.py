@@ -1,9 +1,26 @@
 def multiply(x, y):
+    """
+    Multiply two values together.
+
+    The function will receive two numbers and multiply them together.
+
+    :param x: First value to use
+    :param y: Second value to use
+    :return: The result of multiplying `x` by `y`
+    """
     result = x * y
     return result
 
 
 def is_palindrome(string):
+    """
+    Check if string is a palindrome.
+
+    A palindrome is a string that reads the same forwards as backwards
+
+    :param string: The string to check.
+    :return: True if `string` is a palindrome, False otherwise.
+    """
     # backwards = string[::-1]
     # return backwards == string  # returns true or false
     return string[::-1].casefold() == string.casefold()  # more concise version
@@ -11,6 +28,15 @@ def is_palindrome(string):
 
 # My solution
 def palindrome_sentence(string):
+    """
+    Check if sentence is a palindrome.
+
+    This function ignores whitespace, capitalisation and
+    punctuation in the sentence.
+
+    :param string: The sentence to check.
+    :return: True if `sentence` is a palindrome, False otherwise.
+    """
     new_string = ''
     for char in string:
         if char.isalnum():
