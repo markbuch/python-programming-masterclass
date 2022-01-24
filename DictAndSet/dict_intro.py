@@ -30,7 +30,7 @@ vehicles["virago"] = "Yamaha XV535"
 del vehicles["starfigheter"]
 # del vehicles["f1"]
 
-# Better option to delete a key/value pair
+# Better option to delete a key/value pair, use pop method
 result = vehicles.pop("f1", "You wish! ")
 print(result)
 plane = vehicles.pop("learjet")
