@@ -1,10 +1,16 @@
+import copy  # To use to perform a deep copy
+
 animals = {
 	"lion": ["scary", "big", "cat"],
 	"elephant": ["big", "grey", "wrinkled"],
 	"teddy": ["cuddly", "stuffed"],
 }
 
-things = animals.copy()
+# Perform a shallow copy
+# things = animals.copy()
+
+# Perform a deep copy
+things = copy.deepcopy(animals)
 
 print(things["teddy"])
 print(animals["teddy"])
